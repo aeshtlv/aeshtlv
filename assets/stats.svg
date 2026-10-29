@@ -67,28 +67,28 @@
       <text x="1136" y="126" text-anchor="end" font-family="ui-monospace,Consolas,monospace" font-size="13" fill="#7d8ba6">63%</text>
       <rect x="684" y="133" width="452" height="7" rx="3.5" fill="#ffffff" fill-opacity="0.06"/>
       <rect x="684" y="133" width="0" height="7" rx="3.5" fill="#7cf0ff">
-        <animate attributeName="width" from="0" to="283.4" dur="1.4s" begin="0.50s" fill="freeze" calcMode="spline" keySplines="0.22 1 0.36 1" keyTimes="0;1"/>
+        <animate attributeName="width" from="0" to="283.9" dur="1.4s" begin="0.50s" fill="freeze" calcMode="spline" keySplines="0.22 1 0.36 1" keyTimes="0;1"/>
       </rect>
       <rect x="684" y="133" width="0" height="7" rx="3.5" fill="#3b82f6" fill-opacity="0.55">
-        <animate attributeName="width" from="0" to="283.4" dur="1.4s" begin="0.50s" fill="freeze" calcMode="spline" keySplines="0.22 1 0.36 1" keyTimes="0;1"/>
+        <animate attributeName="width" from="0" to="283.9" dur="1.4s" begin="0.50s" fill="freeze" calcMode="spline" keySplines="0.22 1 0.36 1" keyTimes="0;1"/>
       </rect>
       <text x="684" y="162" font-family="'Segoe UI',system-ui,-apple-system,sans-serif" font-size="14" fill="#c9d4e6">TypeScript</text>
-      <text x="1136" y="162" text-anchor="end" font-family="ui-monospace,Consolas,monospace" font-size="13" fill="#7d8ba6">23%</text>
+      <text x="1136" y="162" text-anchor="end" font-family="ui-monospace,Consolas,monospace" font-size="13" fill="#7d8ba6">22%</text>
       <rect x="684" y="169" width="452" height="7" rx="3.5" fill="#ffffff" fill-opacity="0.06"/>
       <rect x="684" y="169" width="0" height="7" rx="3.5" fill="#7cf0ff">
-        <animate attributeName="width" from="0" to="101.7" dur="1.4s" begin="0.62s" fill="freeze" calcMode="spline" keySplines="0.22 1 0.36 1" keyTimes="0;1"/>
+        <animate attributeName="width" from="0" to="101.5" dur="1.4s" begin="0.62s" fill="freeze" calcMode="spline" keySplines="0.22 1 0.36 1" keyTimes="0;1"/>
       </rect>
       <rect x="684" y="169" width="0" height="7" rx="3.5" fill="#a78bfa" fill-opacity="0.55">
-        <animate attributeName="width" from="0" to="101.7" dur="1.4s" begin="0.62s" fill="freeze" calcMode="spline" keySplines="0.22 1 0.36 1" keyTimes="0;1"/>
+        <animate attributeName="width" from="0" to="101.5" dur="1.4s" begin="0.62s" fill="freeze" calcMode="spline" keySplines="0.22 1 0.36 1" keyTimes="0;1"/>
       </rect>
       <text x="684" y="198" font-family="'Segoe UI',system-ui,-apple-system,sans-serif" font-size="14" fill="#c9d4e6">JavaScript</text>
       <text x="1136" y="198" text-anchor="end" font-family="ui-monospace,Consolas,monospace" font-size="13" fill="#7d8ba6">11%</text>
       <rect x="684" y="205" width="452" height="7" rx="3.5" fill="#ffffff" fill-opacity="0.06"/>
       <rect x="684" y="205" width="0" height="7" rx="3.5" fill="#fde68a">
-        <animate attributeName="width" from="0" to="48.4" dur="1.4s" begin="0.74s" fill="freeze" calcMode="spline" keySplines="0.22 1 0.36 1" keyTimes="0;1"/>
+        <animate attributeName="width" from="0" to="48.2" dur="1.4s" begin="0.74s" fill="freeze" calcMode="spline" keySplines="0.22 1 0.36 1" keyTimes="0;1"/>
       </rect>
       <rect x="684" y="205" width="0" height="7" rx="3.5" fill="#f59e0b" fill-opacity="0.55">
-        <animate attributeName="width" from="0" to="48.4" dur="1.4s" begin="0.74s" fill="freeze" calcMode="spline" keySplines="0.22 1 0.36 1" keyTimes="0;1"/>
+        <animate attributeName="width" from="0" to="48.2" dur="1.4s" begin="0.74s" fill="freeze" calcMode="spline" keySplines="0.22 1 0.36 1" keyTimes="0;1"/>
       </rect>
       <text x="684" y="234" font-family="'Segoe UI',system-ui,-apple-system,sans-serif" font-size="14" fill="#c9d4e6">CSS</text>
       <text x="1136" y="234" text-anchor="end" font-family="ui-monospace,Consolas,monospace" font-size="13" fill="#7d8ba6">2%</text>
