@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 240" width="1200" height="240" fill="none" role="img" aria-label="recent commits">
+  <title>deadera@macbook — git log</title>
+  <defs>
+    <linearGradient id="winBg" x1="0" y1="0" x2="0" y2="240" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0a0f1a"/>
+      <stop offset="1" stop-color="#0b0a14"/>
+    </linearGradient>
+    <linearGradient id="barBg" x1="0" y1="0" x2="0" y2="38" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#121a2b"/>
+      <stop offset="1" stop-color="#13111f"/>
+    </linearGradient>
+    <linearGradient id="fadeTop" x1="0" y1="38" x2="0" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0a0f1a" stop-opacity="1"/>
+      <stop offset="1" stop-color="#0a0f1a" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="fadeBot" x1="0" y1="206" x2="0" y2="240" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0b0a14" stop-opacity="0"/>
+      <stop offset="1" stop-color="#0b0a14" stop-opacity="1"/>
+    </linearGradient>
+    <clipPath id="frame"><rect width="1200" height="240" rx="20"/></clipPath>
+    <clipPath id="viewport"><rect x="0" y="38" width="1200" height="202"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="240" fill="url(#winBg)"/>
+
+    <path d="M0 20a20 20 0 0 1 20-20h1160a20 20 0 0 1 20 20v18H0z" fill="url(#barBg)"/>
+    <rect x="0" y="37" width="1200" height="1" fill="#ffffff" fill-opacity="0.07"/>
+    <circle cx="34" cy="19" r="6" fill="#ff5f57"/>
+    <circle cx="56" cy="19" r="6" fill="#febc2e"/>
+    <circle cx="78" cy="19" r="6" fill="#28c840"/>
+    <text x="600" y="24" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'Segoe UI',monospace" font-size="12.5" fill="#6b7b96">deadera@macbook — git log</text>
+
+    <g clip-path="url(#viewport)" font-family="ui-monospace,SFMono-Regular,Consolas,'Courier New',monospace">
+      <g>
+        <animateTransform attributeName="transform" type="translate"
+          values="0 0;0 -512" dur="25.6s" repeatCount="indefinite"/>
+                <text x="46" y="59" fill="#7cf0ff" fill-opacity="0.55" font-size="15">dfee86d</text><text x="128" y="59" fill="#9aa6b8" font-size="15">Serve assets under a content hash, cache them for a year</text>
+        <text x="46" y="91" fill="#7cf0ff" fill-opacity="0.55" font-size="15">31979de</text><text x="128" y="91" fill="#9aa6b8" font-size="15">Match the preview card's mesh to the page</text>
+        <text x="46" y="123" fill="#7cf0ff" fill-opacity="0.55" font-size="15">321c1b5</text><text x="128" y="123" fill="#9aa6b8" font-size="15">Draw the hero grid as one even mesh</text>
+        <text x="46" y="155" fill="#7cf0ff" fill-opacity="0.55" font-size="15">0165659</text><text x="128" y="155" fill="#9aa6b8" font-size="15">Strengthen the hero grid and rework the link preview</text>
+        <text x="46" y="187" fill="#7cf0ff" fill-opacity="0.55" font-size="15">61c5be6</text><text x="128" y="187" fill="#9aa6b8" font-size="15">Serve the site over HTTP/2</text>
+        <text x="46" y="219" fill="#7cf0ff" fill-opacity="0.55" font-size="15">c668176</text><text x="128" y="219" fill="#9aa6b8" font-size="15">Version the server config and the deployment check</text>
+        <text x="46" y="251" fill="#7cf0ff" fill-opacity="0.55" font-size="15">bcf4457</text><text x="128" y="251" fill="#9aa6b8" font-size="15">Add inline buttons to the user handlers</text>
+        <text x="46" y="283" fill="#7cf0ff" fill-opacity="0.55" font-size="15">120dd9f</text><text x="128" y="283" fill="#9aa6b8" font-size="15">Refine user response messages</text>
+        <text x="46" y="315" fill="#7cf0ff" fill-opacity="0.55" font-size="15">4a68a70</text><text x="128" y="315" fill="#9aa6b8" font-size="15">Drop the redundant confirmation message</text>
+        <text x="46" y="347" fill="#7cf0ff" fill-opacity="0.55" font-size="15">5056cc7</text><text x="128" y="347" fill="#9aa6b8" font-size="15">Improve user message responses</text>
+        <text x="46" y="379" fill="#7cf0ff" fill-opacity="0.55" font-size="15">4aadbbf</text><text x="128" y="379" fill="#9aa6b8" font-size="15">Pin messages directly instead of forwarding</text>
+        <text x="46" y="411" fill="#7cf0ff" fill-opacity="0.55" font-size="15">271c687</text><text x="128" y="411" fill="#9aa6b8" font-size="15">Limit the ticket query</text>
+        <text x="46" y="443" fill="#7cf0ff" fill-opacity="0.55" font-size="15">609d131</text><text x="128" y="443" fill="#9aa6b8" font-size="15">Refactor language handling in the i18n middleware</text>
+        <text x="46" y="475" fill="#7cf0ff" fill-opacity="0.55" font-size="15">1343d41</text><text x="128" y="475" fill="#9aa6b8" font-size="15">Update the referral service and localization</text>
+        <text x="46" y="507" fill="#7cf0ff" fill-opacity="0.55" font-size="15">76e0a2d</text><text x="128" y="507" fill="#9aa6b8" font-size="15">Refactor JsonI18n to use a private attribute</text>
+        <text x="46" y="539" fill="#7cf0ff" fill-opacity="0.55" font-size="15">b1d83e5</text><text x="128" y="539" fill="#9aa6b8" font-size="15">Refactor subscription handling and logging</text>
+        <text x="46" y="571" fill="#7cf0ff" fill-opacity="0.55" font-size="15">dfee86d</text><text x="128" y="571" fill="#9aa6b8" font-size="15">Serve assets under a content hash, cache them for a year</text>
+        <text x="46" y="603" fill="#7cf0ff" fill-opacity="0.55" font-size="15">31979de</text><text x="128" y="603" fill="#9aa6b8" font-size="15">Match the preview card's mesh to the page</text>
+        <text x="46" y="635" fill="#7cf0ff" fill-opacity="0.55" font-size="15">321c1b5</text><text x="128" y="635" fill="#9aa6b8" font-size="15">Draw the hero grid as one even mesh</text>
+        <text x="46" y="667" fill="#7cf0ff" fill-opacity="0.55" font-size="15">0165659</text><text x="128" y="667" fill="#9aa6b8" font-size="15">Strengthen the hero grid and rework the link preview</text>
+        <text x="46" y="699" fill="#7cf0ff" fill-opacity="0.55" font-size="15">61c5be6</text><text x="128" y="699" fill="#9aa6b8" font-size="15">Serve the site over HTTP/2</text>
+        <text x="46" y="731" fill="#7cf0ff" fill-opacity="0.55" font-size="15">c668176</text><text x="128" y="731" fill="#9aa6b8" font-size="15">Version the server config and the deployment check</text>
+        <text x="46" y="763" fill="#7cf0ff" fill-opacity="0.55" font-size="15">bcf4457</text><text x="128" y="763" fill="#9aa6b8" font-size="15">Add inline buttons to the user handlers</text>
+        <text x="46" y="795" fill="#7cf0ff" fill-opacity="0.55" font-size="15">120dd9f</text><text x="128" y="795" fill="#9aa6b8" font-size="15">Refine user response messages</text>
+        <text x="46" y="827" fill="#7cf0ff" fill-opacity="0.55" font-size="15">4a68a70</text><text x="128" y="827" fill="#9aa6b8" font-size="15">Drop the redundant confirmation message</text>
+        <text x="46" y="859" fill="#7cf0ff" fill-opacity="0.55" font-size="15">5056cc7</text><text x="128" y="859" fill="#9aa6b8" font-size="15">Improve user message responses</text>
+        <text x="46" y="891" fill="#7cf0ff" fill-opacity="0.55" font-size="15">4aadbbf</text><text x="128" y="891" fill="#9aa6b8" font-size="15">Pin messages directly instead of forwarding</text>
+        <text x="46" y="923" fill="#7cf0ff" fill-opacity="0.55" font-size="15">271c687</text><text x="128" y="923" fill="#9aa6b8" font-size="15">Limit the ticket query</text>
+        <text x="46" y="955" fill="#7cf0ff" fill-opacity="0.55" font-size="15">609d131</text><text x="128" y="955" fill="#9aa6b8" font-size="15">Refactor language handling in the i18n middleware</text>
+        <text x="46" y="987" fill="#7cf0ff" fill-opacity="0.55" font-size="15">1343d41</text><text x="128" y="987" fill="#9aa6b8" font-size="15">Update the referral service and localization</text>
+        <text x="46" y="1019" fill="#7cf0ff" fill-opacity="0.55" font-size="15">76e0a2d</text><text x="128" y="1019" fill="#9aa6b8" font-size="15">Refactor JsonI18n to use a private attribute</text>
+        <text x="46" y="1051" fill="#7cf0ff" fill-opacity="0.55" font-size="15">b1d83e5</text><text x="128" y="1051" fill="#9aa6b8" font-size="15">Refactor subscription handling and logging</text>
+      </g>
+    </g>
+
+    <rect x="0" y="38" width="1200" height="26" fill="url(#fadeTop)"/>
+    <rect x="0" y="206" width="1200" height="34" fill="url(#fadeBot)"/>
+  </g>
+
+  <rect x="0.6" y="0.6" width="1198.8" height="238.8" rx="19.4" stroke="#ffffff" stroke-opacity="0.09" stroke-width="1.2"/>
+</svg>
