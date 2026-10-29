@@ -11,7 +11,7 @@
 
     <clipPath id="clipA"><rect x="46" y="78" width="0" height="28"><animate attributeName="width" values="0;0;96;96;96" keyTimes="0;0.08;0.22;0.9;1" dur="12s" begin="0s" repeatCount="indefinite"/></rect></clipPath>
     <clipPath id="clipB"><rect x="46" y="130" width="0" height="28"><animate attributeName="width" values="0;0;160;160;160" keyTimes="0;0.30;0.44;0.9;1" dur="12s" begin="0s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="clipC"><rect x="46" y="182" width="0" height="28"><animate attributeName="width" values="0;0;126;126;126" keyTimes="0;0.52;0.66;0.9;1" dur="12s" begin="0s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="clipC"><rect x="46" y="182" width="0" height="28"><animate attributeName="width" values="0;0;170;170;170" keyTimes="0;0.52;0.66;0.9;1" dur="12s" begin="0s" repeatCount="indefinite"/></rect></clipPath>
 
     <clipPath id="frame"><rect width="1200" height="250" rx="20"/></clipPath>
   </defs>
