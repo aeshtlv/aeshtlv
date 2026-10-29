@@ -70,12 +70,12 @@
       <!-- line 3 -->
       <g clip-path="url(#clipC)">
         <text x="46" y="203" fill="#7cf0ff">$</text>
-        <text x="74" y="203" fill="#e6edf7">echo $SHELL</text>
+        <text x="74" y="203" fill="#e6edf7">ls ~/projects</text>
       </g>
       <g class="cwC"><rect class="blink" x="46" y="183" width="10" height="22" rx="2" fill="#7cf0ff" fill-opacity="0.9">
-        <animate attributeName="x" values="46;46;200;200;200" keyTimes="0;0.52;0.66;0.9;1" dur="12s" repeatCount="indefinite"/>
+        <animate attributeName="x" values="46;46;216;216;216" keyTimes="0;0.52;0.66;0.9;1" dur="12s" repeatCount="indefinite"/>
       </rect></g>
-      <text class="outC" x="46" y="230" fill="#8fa3c0" font-size="17">→ /bin/zsh</text>
+      <text class="outC" x="46" y="230" fill="#8fa3c0" font-size="17">→ Flushot  ...</text>
     </g>
   </g>
 
