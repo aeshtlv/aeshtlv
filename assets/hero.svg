@@ -62,6 +62,14 @@
 
     .pill { animation: pulse 4s ease-in-out infinite; }
     @keyframes pulse { 0%,100% { opacity: 0.75; } 50% { opacity: 1; } }
+
+    .particle { transform-box: fill-box; transform-origin: center; animation: float 9s ease-in-out infinite; }
+    @keyframes float {
+      0% { transform: translateY(10px) scale(0.6); opacity: 0; }
+      25% { opacity: 0.85; }
+      75% { opacity: 0.5; }
+      100% { transform: translateY(-72px) scale(1); opacity: 0; }
+    }
   </style>
 
   <g clip-path="url(#frame)">
@@ -75,6 +83,16 @@
     </g>
 
     <rect id="sweep" x="0" y="0" width="1200" height="200" fill="url(#sweepGrad)"/>
+
+    <g>
+      <circle class="particle" cx="150" cy="250" r="2.4" fill="#7cf0ff" style="animation-delay:0s"/>
+      <circle class="particle" cx="285" cy="205" r="1.8" fill="#a78bfa" style="animation-delay:1.4s"/>
+      <circle class="particle" cx="418" cy="270" r="2" fill="#7cf0ff" style="animation-delay:2.9s"/>
+      <circle class="particle" cx="742" cy="262" r="2.2" fill="#ff79c6" style="animation-delay:.8s"/>
+      <circle class="particle" cx="905" cy="212" r="1.7" fill="#a78bfa" style="animation-delay:3.7s"/>
+      <circle class="particle" cx="1042" cy="256" r="2.5" fill="#7cf0ff" style="animation-delay:2.1s"/>
+      <circle class="particle" cx="1120" cy="180" r="1.6" fill="#ff79c6" style="animation-delay:4.6s"/>
+    </g>
 
     <!-- corner brackets -->
     <g stroke="#7cf0ff" stroke-opacity="0.35" stroke-width="2" stroke-linecap="round">
