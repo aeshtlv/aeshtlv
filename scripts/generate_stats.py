@@ -430,12 +430,18 @@ def main() -> int:
     )
     print(f"written -> {OUT}")
 
-    months = collect_activity()
-    if months is None:
-        print("warn: activity data unavailable, keeping previous activity.svg", file=sys.stderr)
+    contrib = collect_contributions()
+    if contrib is None:
+        print(
+            "warn: contribution data unavailable, keeping previous activity.svg",
+            file=sys.stderr,
+        )
     else:
-        OUT_ACTIVITY.write_text(build_activity_svg(months), encoding="utf-8")
-        print("activity: " + " ".join(f"{m['label']}={m['count']}" for m in months))
+        OUT_ACTIVITY.write_text(build_activity_svg(contrib), encoding="utf-8")
+        print(
+            "activity: %s contributions, %s active days, peak %s/day"
+            % (contrib["total"], contrib["active_days"], contrib["peak"])
+        )
         print(f"written -> {OUT_ACTIVITY}")
     return 0
 

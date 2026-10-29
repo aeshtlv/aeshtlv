@@ -28,7 +28,7 @@
 
     <g class="head">
       <text x="64" y="52" font-family="'Segoe UI',system-ui,-apple-system,sans-serif" font-size="13" fill="#7d8ba6" letter-spacing="1.1">АКТИВНОСТЬ ЗА ГОД</text>
-      <text x="1136" y="52" text-anchor="end" font-family="'Segoe UI',system-ui,-apple-system,sans-serif" font-size="13" fill="#7d8ba6" letter-spacing="1.1">244 ВКЛАДОВ · 18 АКТИВНЫХ ДНЕЙ</text>
+      <text x="1136" y="52" text-anchor="end" font-family="'Segoe UI',system-ui,-apple-system,sans-serif" font-size="13" fill="#7d8ba6" letter-spacing="1.1">245 ВКЛАДОВ · 18 АКТИВНЫХ ДНЕЙ</text>
     </g>
 
     <g class="head" style="animation-delay:.2s">
