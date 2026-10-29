@@ -1,8 +1,4 @@
 <div align="center">
-  <img src="assets/banner.svg" alt="" width="100%">
-</div>
-
-<div align="center">
   <img src="assets/terminal.svg" alt="terminal" width="100%">
 </div>
 
@@ -119,17 +115,13 @@
 
 ---
 
-## 📈 цифры (без фотошопа)
+## 🕹 тут можно просто смотреть
 
 <div align="center">
-  <img src="assets/stats.svg" alt="статистика профиля" width="100%">
+  <img src="assets/breakout.svg" alt="самоиграющийся арканоид" width="100%">
 </div>
 
-<div align="center">
-  <img src="assets/activity.svg" alt="активность за год" width="100%">
-</div>
-
-<sub>Обе карточки рисует мой же workflow — раз в сутки пересобираются из GitHub API. Никаких сторонних сервисов, которые умрут через месяц.</sub>
+<sub>Оно играет само, бесконечно и без моего участия — как и половина моих ночных проектов. Кликните по картинке, если хотите разглядеть поближе.</sub>
 
 ---
 
@@ -147,6 +139,3 @@
 
 <br>
 
-<div align="center">
-  <img src="assets/waves.svg" alt="" width="100%">
-</div>
