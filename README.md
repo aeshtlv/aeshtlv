@@ -4,12 +4,10 @@
 
 <div align="center">
 
-Пишу на Python и TypeScript — телеграм-боты, десктопные приложения, мелкие утилиты.
-
+Пишу на Python и TypeScript — телеграм-боты, десктопные приложения, мелкие утилиты.<br>
 <sub>Не эксперт и не senior. Просто делаю то, что хочется.</sub>
 
-**Flushot** — скриншоты на Windows 10 и 11: выделил область, снимок готов.
-
+**Flushot** — скриншоты на Windows 10 и 11: выделил область, снимок готов.<br>
 <sub>С рамкой, пометками и распознаванием текста · [flushot.ink](https://flushot.ink/)</sub>
 
 <a href="https://github.com/aeshtlv/Flushot"><img src="https://img.shields.io/github/v/release/aeshtlv/Flushot?style=for-the-badge&labelColor=0b1020&color=7cf0ff" alt="release"></a>
