@@ -1,7 +1,5 @@
 <div align="center">
-  <a href="https://github.com/aeshtlv">
-    <img src="assets/hero.svg" alt="deadera — vibe coder" width="100%">
-  </a>
+  <img src="assets/banner.svg" alt="" width="100%">
 </div>
 
 <div align="center">
@@ -27,7 +25,7 @@
 
 > Всё, что было написано в этом профиле раньше, — **почти фейк**. Никакой я не «эксперт по Web3» и не «senior с восемью годами опыта».
 > Я **вайбкодер**: придумываю штуку, ночью сажусь её делать, объясняю ИИ чего хочу — и не успокаиваюсь, пока оно не заработает.
-> Пишу **для души**, а не для резюме. Если код выглядит странно, но работает — значит, так и задумано. Наверное.
+> Пишу **по кайфу**, а не для резюме. Если код выглядит странно, но работает — значит, так и задумано. Наверное.
 
 <br>
 
@@ -127,15 +125,11 @@
   <img src="assets/stats.svg" alt="статистика профиля" width="100%">
 </div>
 
-<sub>Карточка рисуется моим же workflow — раз в сутки пересобирается из GitHub API, так что цифры всегда честные.</sub>
-
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/aeshtlv/aeshtlv/output/snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/aeshtlv/aeshtlv/output/snake.svg">
-    <img alt="snake" src="https://raw.githubusercontent.com/aeshtlv/aeshtlv/output/snake.svg">
-  </picture>
+  <img src="assets/activity.svg" alt="активность за год" width="100%">
 </div>
+
+<sub>Обе карточки рисует мой же workflow — раз в сутки пересобираются из GitHub API. Никаких сторонних сервисов, которые умрут через месяц.</sub>
 
 ---
 
@@ -154,5 +148,5 @@
 <br>
 
 <div align="center">
-  <img src="assets/footer.svg" alt="thanks" width="100%">
+  <img src="assets/waves.svg" alt="" width="100%">
 </div>

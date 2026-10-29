@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" width="1200" height="120" fill="none" role="img" aria-label="decorative waves">
+  <defs>
+    <linearGradient id="wBg" x1="0" y1="0" x2="1200" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#06070d"/>
+      <stop offset="1" stop-color="#0a0813"/>
+    </linearGradient>
+    <linearGradient id="wA" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#22d3ee" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="wB" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#a78bfa" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#a78bfa" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#a78bfa" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="wC" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff79c6" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ff79c6" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#ff79c6" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="wFrame"><rect width="1200" height="120" rx="18"/></clipPath>
+  </defs>
+
+  <style>
+    @keyframes scrollL { from { transform: translateX(0); } to { transform: translateX(-1200px); } }
+    @keyframes scrollR { from { transform: translateX(-1200px); } to { transform: translateX(0); } }
+    #wv1 { animation: scrollL 13s linear infinite; }
+    #wv2 { animation: scrollR 19s linear infinite; }
+    #wv3 { animation: scrollL 27s linear infinite; }
+  </style>
+
+  <g clip-path="url(#wFrame)">
+    <rect width="1200" height="120" fill="url(#wBg)"/>
+
+    <g stroke-width="2" fill="none">
+      <g id="wv1"><path stroke="url(#wA)" d="M0 72 C 200 44, 400 100, 600 72 S 1000 44, 1200 72 S 1600 100, 1800 72 S 2200 44, 2400 72"/></g>
+      <g id="wv2"><path stroke="url(#wB)" d="M0 86 C 200 58, 400 114, 600 86 S 1000 58, 1200 86 S 1600 114, 1800 86 S 2200 58, 2400 86"/></g>
+      <g id="wv3"><path stroke="url(#wC)" d="M0 60 C 200 32, 400 88, 600 60 S 1000 32, 1200 60 S 1600 88, 1800 60 S 2200 32, 2400 60"/></g>
+    </g>
+  </g>
+
+  <rect x="0.6" y="0.6" width="1198.8" height="118.8" rx="17.4" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1.2"/>
+</svg>
