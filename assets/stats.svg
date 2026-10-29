@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" fill="none" role="img" aria-label="статистика профиля">
+  <defs>
+    <linearGradient id="sbg" x1="0" y1="0" x2="1200" y2="340" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#070a12"/>
+      <stop offset="1" stop-color="#0b0814"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7cf0ff"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="sgrid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0v48" stroke="#ffffff" stroke-opacity="0.04" stroke-width="1"/>
+    </pattern>
+    <clipPath id="sframe"><rect width="1200" height="340" rx="20"/></clipPath>
+  </defs>
+
+  <style>
+    @keyframes fadeUp { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+    @keyframes pulseDot { 0%, 100% { opacity: 0.3; } 50% { opacity: 1; } }
+    @keyframes drift { 0%, 100% { transform: translateX(0); } 50% { transform: translateX(26px); } }
+    .tile { animation: fadeUp .9s ease-out both; }
+    .dot { animation: pulseDot 2.6s ease-in-out infinite; }
+    #sheen { animation: drift 9s ease-in-out infinite; }
+  </style>
+
+  <g clip-path="url(#sframe)">
+    <rect width="1200" height="340" fill="url(#sbg)"/>
+    <rect width="1200" height="340" fill="url(#sgrid)"/>
+    <g class="tile" style="animation-delay:0.0s">
+      <rect x="40" y="62" width="280" height="112" rx="16" fill="#0f1526" fill-opacity="0.92" stroke="#ffffff" stroke-opacity="0.08"/>
+      <rect x="40" y="62" width="280" height="112" rx="16" fill="none" stroke="url(#accent)" stroke-opacity="0.28"/>
+      <text x="62" y="96" font-family="'Segoe UI',system-ui,-apple-system,sans-serif" font-size="13" fill="#7d8ba6" letter-spacing="1.1">ПОДПИСЧИКИ</text>
+      <text x="62" y="148" font-family="'Segoe UI',system-ui,-apple-system,sans-serif" font-size="42" font-weight="700" fill="#e8eefb">4</text>
+      <text x="298" y="148" text-anchor="end" font-size="26">👥</text>
+    </g>
+    <g class="tile" style="animation-delay:0.08s">
+      <rect x="340" y="62" width="280" height="112" rx="16" fill="#0f1526" fill-opacity="0.92" stroke="#ffffff" stroke-opacity="0.08"/>
+      <rect x="340" y="62" width="280" height="112" rx="16" fill="none" stroke="url(#accent)" stroke-opacity="0.28"/>
+      <text x="362" y="96" font-family="'Segoe UI',system-ui,-apple-system,sans-serif" font-size="13" fill="#7d8ba6" letter-spacing="1.1">РЕПОЗИТОРИИ</text>
+      <text x="362" y="148" font-family="'Segoe UI',system-ui,-apple-system,sans-serif" font-size="42" font-weight="700" fill="#e8eefb">11</text>
+      <text x="598" y="148" text-anchor="end" font-size="26">📦</text>
+    </g>
+    <g class="tile" style="animation-delay:0.16s">
+      <rect x="40" y="190" width="280" height="112" rx="16" fill="#0f1526" fill-opacity="0.92" stroke="#ffffff" stroke-opacity="0.08"/>
+      <rect x="40" y="190" width="280" height="112" rx="16" fill="none" stroke="url(#accent)" stroke-opacity="0.28"/>
+      <text x="62" y="224" font-family="'Segoe UI',system-ui,-apple-system,sans-serif" font-size="13" fill="#7d8ba6" letter-spacing="1.1">ЗВЁЗДЫ</text>
+      <text x="62" y="276" font-family="'Segoe UI',system-ui,-apple-system,sans-serif" font-size="42" font-weight="700" fill="#e8eefb">3</text>
+      <text x="298" y="276" text-anchor="end" font-size="26">⭐</text>
+    </g>
+    <g class="tile" style="animation-delay:0.24s">
+      <rect x="340" y="190" width="280" height="112" rx="16" fill="#0f1526" fill-opacity="0.92" stroke="#ffffff" stroke-opacity="0.08"/>
+      <rect x="340" y="190" width="280" height="112" rx="16" fill="none" stroke="url(#accent)" stroke-opacity="0.28"/>
+      <text x="362" y="224" font-family="'Segoe UI',system-ui,-apple-system,sans-serif" font-size="13" fill="#7d8ba6" letter-spacing="1.1">КОММИТЫ</text>
+      <text x="362" y="276" font-family="'Segoe UI',system-ui,-apple-system,sans-serif" font-size="42" font-weight="700" fill="#e8eefb">225</text>
+      <text x="598" y="276" text-anchor="end" font-size="26">💾</text>
+    </g>
+    <g class="tile" style="animation-delay:.34s">
+      <rect x="660" y="62" width="500" height="240" rx="16" fill="#0f1526" fill-opacity="0.92" stroke="#ffffff" stroke-opacity="0.08"/>
+      <rect x="660" y="62" width="500" height="240" rx="16" fill="none" stroke="url(#accent)" stroke-opacity="0.28"/>
+      <text x="684" y="96" font-family="'Segoe UI',system-ui,-apple-system,sans-serif" font-size="13" fill="#7d8ba6" letter-spacing="1.1">ТОП ЯЗЫКОВ</text>
+      <text x="684" y="126" font-family="'Segoe UI',system-ui,-apple-system,sans-serif" font-size="14" fill="#c9d4e6">Python</text>
+      <text x="1136" y="126" text-anchor="end" font-family="ui-monospace,Consolas,monospace" font-size="13" fill="#7d8ba6">63%</text>
+      <rect x="684" y="133" width="452" height="7" rx="3.5" fill="#ffffff" fill-opacity="0.06"/>
+      <rect x="684" y="133" width="0" height="7" rx="3.5" fill="#7cf0ff">
+        <animate attributeName="width" from="0" to="283.4" dur="1.4s" begin="0.50s" fill="freeze" calcMode="spline" keySplines="0.22 1 0.36 1" keyTimes="0;1"/>
+      </rect>
+      <rect x="684" y="133" width="0" height="7" rx="3.5" fill="#3b82f6" fill-opacity="0.55">
+        <animate attributeName="width" from="0" to="283.4" dur="1.4s" begin="0.50s" fill="freeze" calcMode="spline" keySplines="0.22 1 0.36 1" keyTimes="0;1"/>
+      </rect>
+      <text x="684" y="162" font-family="'Segoe UI',system-ui,-apple-system,sans-serif" font-size="14" fill="#c9d4e6">TypeScript</text>
+      <text x="1136" y="162" text-anchor="end" font-family="ui-monospace,Consolas,monospace" font-size="13" fill="#7d8ba6">23%</text>
+      <rect x="684" y="169" width="452" height="7" rx="3.5" fill="#ffffff" fill-opacity="0.06"/>
+      <rect x="684" y="169" width="0" height="7" rx="3.5" fill="#7cf0ff">
+        <animate attributeName="width" from="0" to="101.7" dur="1.4s" begin="0.62s" fill="freeze" calcMode="spline" keySplines="0.22 1 0.36 1" keyTimes="0;1"/>
+      </rect>
+      <rect x="684" y="169" width="0" height="7" rx="3.5" fill="#a78bfa" fill-opacity="0.55">
+        <animate attributeName="width" from="0" to="101.7" dur="1.4s" begin="0.62s" fill="freeze" calcMode="spline" keySplines="0.22 1 0.36 1" keyTimes="0;1"/>
+      </rect>
+      <text x="684" y="198" font-family="'Segoe UI',system-ui,-apple-system,sans-serif" font-size="14" fill="#c9d4e6">JavaScript</text>
+      <text x="1136" y="198" text-anchor="end" font-family="ui-monospace,Consolas,monospace" font-size="13" fill="#7d8ba6">11%</text>
+      <rect x="684" y="205" width="452" height="7" rx="3.5" fill="#ffffff" fill-opacity="0.06"/>
+      <rect x="684" y="205" width="0" height="7" rx="3.5" fill="#fde68a">
+        <animate attributeName="width" from="0" to="48.4" dur="1.4s" begin="0.74s" fill="freeze" calcMode="spline" keySplines="0.22 1 0.36 1" keyTimes="0;1"/>
+      </rect>
+      <rect x="684" y="205" width="0" height="7" rx="3.5" fill="#f59e0b" fill-opacity="0.55">
+        <animate attributeName="width" from="0" to="48.4" dur="1.4s" begin="0.74s" fill="freeze" calcMode="spline" keySplines="0.22 1 0.36 1" keyTimes="0;1"/>
+      </rect>
+      <text x="684" y="234" font-family="'Segoe UI',system-ui,-apple-system,sans-serif" font-size="14" fill="#c9d4e6">CSS</text>
+      <text x="1136" y="234" text-anchor="end" font-family="ui-monospace,Consolas,monospace" font-size="13" fill="#7d8ba6">2%</text>
+      <rect x="684" y="241" width="452" height="7" rx="3.5" fill="#ffffff" fill-opacity="0.06"/>
+      <rect x="684" y="241" width="0" height="7" rx="3.5" fill="#a5b4fc">
+        <animate attributeName="width" from="0" to="10.4" dur="1.4s" begin="0.86s" fill="freeze" calcMode="spline" keySplines="0.22 1 0.36 1" keyTimes="0;1"/>
+      </rect>
+      <rect x="684" y="241" width="0" height="7" rx="3.5" fill="#6366f1" fill-opacity="0.55">
+        <animate attributeName="width" from="0" to="10.4" dur="1.4s" begin="0.86s" fill="freeze" calcMode="spline" keySplines="0.22 1 0.36 1" keyTimes="0;1"/>
+      </rect>
+      <text x="684" y="270" font-family="'Segoe UI',system-ui,-apple-system,sans-serif" font-size="14" fill="#c9d4e6">HTML</text>
+      <text x="1136" y="270" text-anchor="end" font-family="ui-monospace,Consolas,monospace" font-size="13" fill="#7d8ba6">2%</text>
+      <rect x="684" y="277" width="452" height="7" rx="3.5" fill="#ffffff" fill-opacity="0.06"/>
+      <rect x="684" y="277" width="0" height="7" rx="3.5" fill="#ffb4a2">
+        <animate attributeName="width" from="0" to="8.1" dur="1.4s" begin="0.98s" fill="freeze" calcMode="spline" keySplines="0.22 1 0.36 1" keyTimes="0;1"/>
+      </rect>
+      <rect x="684" y="277" width="0" height="7" rx="3.5" fill="#ef4444" fill-opacity="0.55">
+        <animate attributeName="width" from="0" to="8.1" dur="1.4s" begin="0.98s" fill="freeze" calcMode="spline" keySplines="0.22 1 0.36 1" keyTimes="0;1"/>
+      </rect>
+      <rect id="sheen" x="684" y="118" width="120" height="150" fill="url(#shine)" opacity="0.16"/>
+    </g>
+
+    <circle class="dot" cx="40" cy="30" r="3.5" fill="#7cf0ff"/>
+    <text x="54" y="35" font-family="'Segoe UI',system-ui,-apple-system,sans-serif" font-size="12.5" fill="#6f7d96" letter-spacing="0.6">обновлено 29.10.2026 · github actions</text>
+
+    <rect x="380" y="316" width="440" height="1.4" rx="1" fill="url(#accent)" fill-opacity="0.45"/>
+  </g>
+
+  <rect x="0.6" y="0.6" width="1198.8" height="338.8" rx="19.4" stroke="#ffffff" stroke-opacity="0.09" stroke-width="1.2"/>
+</svg>
