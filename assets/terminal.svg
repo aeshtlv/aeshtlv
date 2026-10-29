@@ -1,20 +1,20 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 250" width="1200" height="250" fill="none" role="img" aria-label="terminal">
-  <title>deadera@github — ~/profile</title>
+  <title>deadera@macbook — ~/profile</title>
   <defs>
-    <linearGradient id="winBg" x1="0" y1="0" x2="1200" y2="250" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#0b0b0b"/>
-      <stop offset="1" stop-color="#101010"/>
+    <linearGradient id="winBg" x1="0" y1="0" x2="0" y2="250" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#16181d"/>
+      <stop offset="1" stop-color="#1a1d24"/>
     </linearGradient>
     <linearGradient id="barBg" x1="0" y1="0" x2="0" y2="38" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#181818"/>
-      <stop offset="1" stop-color="#141414"/>
+      <stop offset="0" stop-color="#23262d"/>
+      <stop offset="1" stop-color="#1e2127"/>
     </linearGradient>
 
-    <clipPath id="clipA"><rect x="46" y="78" width="0" height="28"><animate attributeName="width" values="0;0;92;92;92" keyTimes="0;0.08;0.22;0.9;1" dur="12s" begin="0s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="clipB"><rect x="46" y="130" width="0" height="28"><animate attributeName="width" values="0;0;172;172;172" keyTimes="0;0.30;0.44;0.9;1" dur="12s" begin="0s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="clipC"><rect x="46" y="182" width="0" height="28"><animate attributeName="width" values="0;0;172;172;172" keyTimes="0;0.52;0.66;0.9;1" dur="12s" begin="0s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="clipA"><rect x="46" y="78" width="0" height="28"><animate attributeName="width" values="0;0;68;68;68" keyTimes="0;0.08;0.22;0.9;1" dur="12s" begin="0s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="clipB"><rect x="46" y="130" width="0" height="28"><animate attributeName="width" values="0;0;148;148;148" keyTimes="0;0.30;0.44;0.9;1" dur="12s" begin="0s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="clipC"><rect x="46" y="182" width="0" height="28"><animate attributeName="width" values="0;0;126;126;126" keyTimes="0;0.52;0.66;0.9;1" dur="12s" begin="0s" repeatCount="indefinite"/></rect></clipPath>
 
-    <clipPath id="frame"><rect width="1200" height="250" rx="18"/></clipPath>
+    <clipPath id="frame"><rect width="1200" height="250" rx="14"/></clipPath>
   </defs>
 
   <style>
@@ -26,7 +26,7 @@
     @keyframes outA { 0% { opacity: 0; } 22% { opacity: 0; } 26% { opacity: 1; } 90% { opacity: 1; } 96% { opacity: 0; } 100% { opacity: 0; } }
     @keyframes outB { 0% { opacity: 0; } 44% { opacity: 0; } 48% { opacity: 1; } 90% { opacity: 1; } 96% { opacity: 0; } 100% { opacity: 0; } }
     @keyframes outC { 0% { opacity: 0; } 66% { opacity: 0; } 70% { opacity: 1; } 90% { opacity: 1; } 96% { opacity: 0; } 100% { opacity: 0; } }
-    .blink { animation: blink 1s steps(1,end) infinite; }
+    .blink { animation: blink 1.05s steps(1,end) infinite; }
     .content { animation: cycle 12s linear infinite; }
     .cwA { animation: winA 12s linear infinite; }
     .cwB { animation: winB 12s linear infinite; }
@@ -39,46 +39,46 @@
   <g clip-path="url(#frame)">
     <rect width="1200" height="250" fill="url(#winBg)"/>
 
-    <!-- title bar -->
-    <path d="M0 18a18 18 0 0 1 18-18h1164a18 18 0 0 1 18 18v20H0z" fill="url(#barBg)"/>
-    <rect x="0" y="37.5" width="1200" height="1" fill="#ffffff" fill-opacity="0.07"/>
-    <circle cx="34" cy="19" r="5.5" fill="#2c2c2c"/>
-    <circle cx="54" cy="19" r="5.5" fill="#2c2c2c"/>
-    <circle cx="74" cy="19" r="5.5" fill="#2c2c2c"/>
-    <text x="600" y="24" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,'Courier New',monospace" font-size="12.5" fill="#5f5f5f" letter-spacing="0.3">deadera@github — ~/profile</text>
+    <!-- macOS title bar -->
+    <path d="M0 14a14 14 0 0 1 14-14h1172a14 14 0 0 1 14 14v24H0z" fill="url(#barBg)"/>
+    <rect x="0" y="37.5" width="1200" height="1" fill="#ffffff" fill-opacity="0.06"/>
+    <circle cx="30" cy="19" r="6" fill="#ff5f57"/>
+    <circle cx="50" cy="19" r="6" fill="#febc2e"/>
+    <circle cx="70" cy="19" r="6" fill="#28c840"/>
+    <text x="600" y="23.5" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,'Courier New',monospace" font-size="12.5" fill="#7d8590" letter-spacing="0.2">deadera@macbook — ~/profile</text>
 
     <g class="content" font-family="ui-monospace,SFMono-Regular,Consolas,'Courier New',monospace" font-size="19">
       <!-- line 1 -->
       <g clip-path="url(#clipA)">
-        <text x="46" y="99" fill="#555555">$</text>
-        <text x="74" y="99" fill="#ededed">whoami</text>
+        <text x="46" y="99" fill="#7ee787">$</text>
+        <text x="74" y="99" fill="#e6edf3">whoami</text>
       </g>
-      <g class="cwA"><rect class="blink" x="46" y="79" width="9" height="22" rx="2" fill="#ededed" fill-opacity="0.8">
-        <animate attributeName="x" values="46;46;138;138;138" keyTimes="0;0.08;0.22;0.9;1" dur="12s" repeatCount="indefinite"/>
+      <g class="cwA"><rect class="blink" x="46" y="79" width="9" height="22" rx="2" fill="#7ee787" fill-opacity="0.85">
+        <animate attributeName="x" values="46;46;142;142;142" keyTimes="0;0.08;0.22;0.9;1" dur="12s" repeatCount="indefinite"/>
       </rect></g>
-      <text class="outA" x="46" y="126" fill="#8a8a8a" font-size="17">→ вайбкодер</text>
+      <text class="outA" x="46" y="126" fill="#9ba3af" font-size="17">deadera</text>
 
       <!-- line 2 -->
       <g clip-path="url(#clipB)">
-        <text x="46" y="151" fill="#555555">$</text>
-        <text x="74" y="151" fill="#ededed">cat stack.txt</text>
+        <text x="46" y="151" fill="#7ee787">$</text>
+        <text x="74" y="151" fill="#e6edf3">cat stack.txt</text>
       </g>
-      <g class="cwB"><rect class="blink" x="46" y="131" width="9" height="22" rx="2" fill="#ededed" fill-opacity="0.8">
-        <animate attributeName="x" values="46;46;218;218;218" keyTimes="0;0.30;0.44;0.9;1" dur="12s" repeatCount="indefinite"/>
+      <g class="cwB"><rect class="blink" x="46" y="131" width="9" height="22" rx="2" fill="#7ee787" fill-opacity="0.85">
+        <animate attributeName="x" values="46;46;222;222;222" keyTimes="0;0.30;0.44;0.9;1" dur="12s" repeatCount="indefinite"/>
       </rect></g>
-      <text class="outB" x="46" y="178" fill="#8a8a8a" font-size="17">→ python · typescript · fastapi · electron</text>
+      <text class="outB" x="46" y="178" fill="#9ba3af" font-size="17">python · typescript · fastapi · electron</text>
 
       <!-- line 3 -->
       <g clip-path="url(#clipC)">
-        <text x="46" y="203" fill="#555555">$</text>
-        <text x="74" y="203" fill="#ededed">ls ~/projects</text>
+        <text x="46" y="203" fill="#7ee787">$</text>
+        <text x="74" y="203" fill="#e6edf3">echo $SHELL</text>
       </g>
-      <g class="cwC"><rect class="blink" x="46" y="183" width="9" height="22" rx="2" fill="#ededed" fill-opacity="0.8">
-        <animate attributeName="x" values="46;46;218;218;218" keyTimes="0;0.52;0.66;0.9;1" dur="12s" repeatCount="indefinite"/>
+      <g class="cwC"><rect class="blink" x="46" y="183" width="9" height="22" rx="2" fill="#7ee787" fill-opacity="0.85">
+        <animate attributeName="x" values="46;46;200;200;200" keyTimes="0;0.52;0.66;0.9;1" dur="12s" repeatCount="indefinite"/>
       </rect></g>
-      <text class="outC" x="46" y="230" fill="#8a8a8a" font-size="17">→ Flushot  GiftTinder  shftsecure  remnabuy</text>
+      <text class="outC" x="46" y="230" fill="#9ba3af" font-size="17">/bin/zsh</text>
     </g>
   </g>
 
-  <rect x="0.5" y="0.5" width="1199" height="249" rx="17.5" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1"/>
+  <rect x="0.5" y="0.5" width="1199" height="249" rx="13.5" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1"/>
 </svg>

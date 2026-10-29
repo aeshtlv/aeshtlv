@@ -4,16 +4,15 @@
 
 <br>
 
-<div align="center">
+**проекты**
 
-<a href="https://github.com/aeshtlv/Flushot"><b>Flushot</b></a> &nbsp;·&nbsp; <a href="https://github.com/aeshtlv/GiftTinder"><b>GiftTinder</b></a> &nbsp;·&nbsp; <a href="https://github.com/aeshtlv/shftsecure"><b>shftsecure</b></a> &nbsp;·&nbsp; <a href="https://github.com/aeshtlv/remnabuy"><b>remnabuy</b></a> &nbsp;·&nbsp; <a href="https://github.com/aeshtlv/supportticketbot"><b>supportticketbot</b></a>
+- [**Flushot**](https://github.com/aeshtlv/Flushot) — скриншоты на Windows: выделил область, снимок готов · [flushot.ink](https://flushot.ink/)
+- [**remnabuy**](https://github.com/aeshtlv/remnabuy) — телеграм-бот подписок на Remnawave: Stars, СБП, промокоды, рефералы
+- [**supportticketbot**](https://github.com/aeshtlv/supportticketbot) — поддержка через топики в телеграм-группе
+- [**GiftTinder**](https://github.com/aeshtlv/GiftTinder) — свайпы по подаркам, Telegram Mini App
 
-<br><br>
+<br>
 
-<code>python</code> &nbsp; <code>typescript</code> &nbsp; <code>fastapi</code> &nbsp; <code>electron</code> &nbsp; <code>node.js</code> &nbsp; <code>docker</code>
+**контакты**
 
-<br><br>
-
-<a href="https://t.me/aeshtlv">telegram</a> &nbsp;·&nbsp; <a href="https://github.com/aeshtlv">github</a> &nbsp;·&nbsp; <a href="https://flushot.ink/">flushot.ink</a>
-
-</div>
+[telegram](https://t.me/aeshtlv) &nbsp;·&nbsp; [github](https://github.com/aeshtlv)
